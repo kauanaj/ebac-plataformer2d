@@ -553,6 +553,7 @@ MonoBehaviour:
   myRigidbody: {fileID: 1480666419}
   friction: {x: 0.1, y: 0}
   speed: 10
+  speedRun: 15
   forceJump: 20
 --- !u!50 &1480666419
 Rigidbody2D:
