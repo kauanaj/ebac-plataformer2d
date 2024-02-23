@@ -12,7 +12,7 @@ public class GameManager : Singleton<GameManager>
     public List<GameObject> enemies;
 
     [Header("References")]
-    public Transform starPoint;
+    public Transform starPointPlayer;
 
     [Header("Animation")]
     public float duration = .2f;
@@ -34,7 +34,7 @@ public class GameManager : Singleton<GameManager>
     private void SpawnPlayer() 
     {
         _currentPlayer = Instantiate(playerPrefab);
-        _currentPlayer.transform.position = starPoint.transform.position;
+        _currentPlayer.transform.position = starPointPlayer.transform.position;
         _currentPlayer.transform.DOScale(0, duration).SetEase(ease).From().SetDelay(delay);
     }
 }
