@@ -6,7 +6,7 @@ public class HealthBase : MonoBehaviour
 {
     public int startLife = 10;
     public bool destroyOnKill = false;
-    public float delayToKill = 0f;
+    //public float delayToKill = 0f;
 
     private int _currentLife;
     private bool _isDead = false;
@@ -31,6 +31,7 @@ public class HealthBase : MonoBehaviour
         if(_currentLife <= 0)
         {
             Kill();
+            Debug.Log("Você Morreu !!!");
         }
     }
 
@@ -40,7 +41,7 @@ public class HealthBase : MonoBehaviour
 
         if (destroyOnKill)
         {
-            Destroy(gameObject, delayToKill);
+            Destroy(gameObject);
         }
     }
 }

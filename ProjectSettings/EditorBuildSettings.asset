@@ -8,8 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SCN_Menu.unity
     guid: ce7188e259109684ca2c982ab9954f04
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SCN_Level01.unity
     guid: f4ac80eba7c638144accd1bd5b62b36e
+  - enabled: 1
+    path: Assets/Scenes/SCN_Prototype.unity
+    guid: c69dd79d05689c44db544a916492c697
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
