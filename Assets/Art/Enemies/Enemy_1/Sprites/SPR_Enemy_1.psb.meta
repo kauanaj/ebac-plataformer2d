@@ -2473,7 +2473,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 6e4047c64b4c7ff4194520953a4ea20b
+    spriteID: fd69581578fe505409e4213c5277a97f
     layerID: 38
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -2483,7 +2483,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 11e060256add1884e8a712a176229be1
+    spriteID: 8f55663d54f066c4abe68dc7e3d1e4f4
     layerID: 37
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -2513,7 +2513,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 3a9a79ae41a5be34fa4bb8b15010a4aa
+    spriteID: 62d9cf6c73f56da4a990bc192e03b845
     layerID: 33
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -2543,7 +2543,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 346181df887faab42bbb0b159673f9fe
+    spriteID: 4b05cb8a3f786ea44b1b041d17ef6597
     layerID: 29
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -2573,7 +2573,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: a1389c35ba12fbc4fbb05f782649cfdf
+    spriteID: 21acd14dff470ae49b04335837faa25c
     layerID: 25
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -2605,22 +2605,22 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 6e4047c64b4c7ff4194520953a4ea20b
+    spriteID: fd69581578fe505409e4213c5277a97f
     layerID: 38
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
-    isVisible: 1
+    isVisible: 0
   - name: Eyebrows
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 11e060256add1884e8a712a176229be1
+    spriteID: 8f55663d54f066c4abe68dc7e3d1e4f4
     layerID: 37
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
-    isVisible: 1
+    isVisible: 0
   - name: Left_Eyebrow
     spriteName: Left_Eyebrow
     isGroup: 0
@@ -2629,8 +2629,8 @@ ScriptedImporter:
     layerID: 36
     mosaicPosition: {x: 216, y: 682}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: Right_Eyebrow
     spriteName: Right_Eyebrow
     isGroup: 0
@@ -2639,18 +2639,18 @@ ScriptedImporter:
     layerID: 35
     mosaicPosition: {x: 112, y: 682}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: Eyes_Closed
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 3a9a79ae41a5be34fa4bb8b15010a4aa
+    spriteID: 62d9cf6c73f56da4a990bc192e03b845
     layerID: 33
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
-    isVisible: 1
+    isVisible: 0
   - name: Left_Eye
     spriteName: Left_Eye
     isGroup: 0
@@ -2659,8 +2659,8 @@ ScriptedImporter:
     layerID: 32
     mosaicPosition: {x: 441, y: 682}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: Right_Eye
     spriteName: Right_Eye
     isGroup: 0
@@ -2669,18 +2669,18 @@ ScriptedImporter:
     layerID: 31
     mosaicPosition: {x: 286, y: 682}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: Eyes_Open
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 346181df887faab42bbb0b159673f9fe
+    spriteID: 4b05cb8a3f786ea44b1b041d17ef6597
     layerID: 29
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
-    isVisible: 1
+    isVisible: 0
   - name: Right_Eye
     spriteName: Right_Eye_1
     isGroup: 0
@@ -2689,8 +2689,8 @@ ScriptedImporter:
     layerID: 28
     mosaicPosition: {x: 386, y: 682}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: Left_Eye
     spriteName: Left_Eye_1
     isGroup: 0
@@ -2699,18 +2699,18 @@ ScriptedImporter:
     layerID: 27
     mosaicPosition: {x: 508, y: 682}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: Mouth
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: a1389c35ba12fbc4fbb05f782649cfdf
+    spriteID: 21acd14dff470ae49b04335837faa25c
     layerID: 25
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
-    isVisible: 1
+    isVisible: 0
   - name: Mouth
     spriteName: Mouth
     isGroup: 0
@@ -2719,8 +2719,8 @@ ScriptedImporter:
     layerID: 24
     mosaicPosition: {x: 4, y: 682}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: Body
     spriteName: Body
     isGroup: 0
@@ -2729,8 +2729,8 @@ ScriptedImporter:
     layerID: 22
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   sharedRigPSDLayers: []
   importFileNodeState: 1
   platformSettingsDirtyTick: 0
