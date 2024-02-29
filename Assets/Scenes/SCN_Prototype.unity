@@ -826,6 +826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1112734130}
   - component: {fileID: 1112734129}
+  - component: {fileID: 1112734131}
   m_Layer: 0
   m_Name: Satelite
   m_TagString: Untagged
@@ -871,6 +872,21 @@ Transform:
   - {fileID: 1983328620}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1112734131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112734128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b36280921e56224d8c721ba903fbe47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1112734129}
+  keyToSet: 97
+  animationName: FlyBool
 --- !u!1 &1152083812
 GameObject:
   m_ObjectHideFlags: 0
