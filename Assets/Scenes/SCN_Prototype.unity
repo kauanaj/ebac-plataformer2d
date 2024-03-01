@@ -1511,7 +1511,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1480666422}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 7
+    OrthographicSize: 15
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -1581,11 +1581,12 @@ MonoBehaviour:
   speed: 10
   speedRun: 15
   forceJump: 20
-  jumpScaleY: 1.5
+  jumpScaleY: 1.2
   jumpScaleX: 0.7
   animationDuration: 0.3
   ease: 27
   boolRun: Run
+  boolJump: Jump
   animator: {fileID: 748162203}
   playerSwipeDuration: 0.1
 --- !u!50 &1480666419
@@ -1784,7 +1785,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
