@@ -6,14 +6,20 @@ public class HealthBase : MonoBehaviour
 {
     public int startLife = 10;
     public bool destroyOnKill = false;
-    //public float delayToKill = 0f;
+    public float delayToKill = 0f;
 
     private int _currentLife;
     private bool _isDead = false;
 
+    [SerializeField]private FlashColor _flashColor;
+
     private void Awake()
     {
         Init();
+        if(_flashColor == null)
+        {
+            _flashColor = GetComponent<FlashColor>();
+        }
     }
 
     private void Init()
@@ -33,6 +39,11 @@ public class HealthBase : MonoBehaviour
             Kill();
             Debug.Log("Você Morreu !!!");
         }
+
+        if (_flashColor != null)
+        {
+            _flashColor.Flash();
+        }
     }
 
     private void Kill()
@@ -41,7 +52,7 @@ public class HealthBase : MonoBehaviour
 
         if (destroyOnKill)
         {
-            Destroy(gameObject);
+            Destroy(gameObject, delayToKill);
         }
     }
 }
