@@ -53,5 +53,6 @@ public class EnemyBase : MonoBehaviour
     public void Damage(int amount)
     {
         healthBase.Damage(amount);
+        Debug.Log("Enemy base: "+amount);
     }
 }

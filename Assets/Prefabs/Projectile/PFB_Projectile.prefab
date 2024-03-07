@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 142898398160723944}
-  - component: {fileID: 6512906147086308931}
   - component: {fileID: 1496341975057921718}
+  - component: {fileID: 3911038464319964858}
   m_Layer: 0
   m_Name: PFB_Projectile
   m_TagString: Untagged
@@ -27,27 +27,13 @@ Transform:
   m_GameObject: {fileID: 1236739924765751732}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.36, y: -7.19, z: 0.48368943}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6108186538517077923}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6512906147086308931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1236739924765751732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c72f2540d3793a4daebab9671ff4e23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  direction: {x: 35, y: 0, z: 0}
-  timeToDestroy: 1
 --- !u!58 &1496341975057921718
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -84,6 +70,22 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.6
+--- !u!114 &3911038464319964858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236739924765751732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c72f2540d3793a4daebab9671ff4e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: {x: 15, y: 0, z: 0}
+  timeToDestroy: 1
+  side: 1
+  damageAmount: 1
 --- !u!1 &7211267696668453004
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ public class ProjectileBase : MonoBehaviour
 {
     public Vector3 direction;
     public float timeToDestroy = 1f;
-    public float side = 1;
+    public float side = 1f;
     public int damageAmount = 1;
 
     private void Awake()
