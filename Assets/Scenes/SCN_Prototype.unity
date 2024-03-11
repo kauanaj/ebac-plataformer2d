@@ -6336,6 +6336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coins: 0
+  uiScore: {fileID: 1428323315}
 --- !u!4 &2073594467
 Transform:
   m_ObjectHideFlags: 0
