@@ -7,8 +7,7 @@ using Ebac.Core.Singleton;
 public class ItemManager : Singleton<ItemManager>
 {
     public int coins;
-    public TextMeshProUGUI uiScore;
-
+    
     private void Start()
     {
         Reset();
@@ -17,7 +16,7 @@ public class ItemManager : Singleton<ItemManager>
     private void Reset()
     {
         coins = 0;
-        uiScore.text = "x0";
+        UpdateCoins();
     }
 
     public void AddCoins(int amount = 1)
@@ -28,6 +27,6 @@ public class ItemManager : Singleton<ItemManager>
     
     private void UpdateCoins()
     {
-        uiScore.text = ("x "+coins.ToString());
+        UIinGameManager.UpdateTextCoins(coins.ToString());
     }
 }
