@@ -6,7 +6,7 @@ using Ebac.Core.Singleton;
 
 public class ItemManager : Singleton<ItemManager>
 {
-    public int coins;
+    public SOInt coins;
     
     private void Start()
     {
@@ -15,18 +15,18 @@ public class ItemManager : Singleton<ItemManager>
 
     private void Reset()
     {
-        coins = 0;
-        UpdateCoins();
+        coins.value = 0;
+        //UpdateCoins();
     }
 
     public void AddCoins(int amount = 1)
     {
-        coins += amount;
-        UpdateCoins();
+        coins.value += amount;
+        //UpdateCoins();
     }
     
     private void UpdateCoins()
     {
-        UIinGameManager.UpdateTextCoins(coins.ToString());
+        //UIinGameManager.UpdateTextCoins(coins.ToString());
     }
 }
