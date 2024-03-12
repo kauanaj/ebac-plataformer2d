@@ -6,6 +6,8 @@ using DG.Tweening;
 [CreateAssetMenu]
 public class SOPlayerSetup : ScriptableObject
 {
+    public SOString soStringName;
+
     [Header("Physics Setup")]
     public Vector2 friction = new Vector2(-.1f, 0);
     public float speed;
@@ -22,4 +24,5 @@ public class SOPlayerSetup : ScriptableObject
     public string boolRun = "Run";
     public string triggerDeath = "Death";
     public float playerSwipeDuration = .1f;
+    public Animator animatorPlayer;
 }
