@@ -4896,21 +4896,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14d7ea5ea0d18c544ace022620148bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBase: {fileID: 1480666423}
   myRigidbody: {fileID: 1480666419}
-  friction: {x: 0.3, y: 0}
-  speed: 10
-  speedRun: 15
-  forceJump: 20
-  soJumpScaleY: {fileID: 11400000, guid: 5d55e326232e03944abd1250a82529af, type: 2}
-  soJumpScaleX: {fileID: 11400000, guid: cbf898dede746a44f8b9a52964d41276, type: 2}
-  soAnimationDuration: {fileID: 11400000, guid: 5a51a1b796f1dae49a3e2a2653b74f8a, type: 2}
-  ease: 27
-  boolRun: Run
-  boolJump: Jump
-  triggerDeath: Death
+  healthBase: {fileID: 1480666423}
+  soPlayerSetup: {fileID: 11400000, guid: 7bae046597984c241b12bcf992a4033c, type: 2}
   animator: {fileID: 748162203}
-  playerSwipeDuration: 0.1
 --- !u!50 &1480666419
 Rigidbody2D:
   serializedVersion: 4
