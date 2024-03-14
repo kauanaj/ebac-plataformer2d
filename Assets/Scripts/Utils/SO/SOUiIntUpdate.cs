@@ -5,18 +5,22 @@ using TMPro;
 
 public class SOUiIntUpdate : MonoBehaviour
 {
-    public SOInt soInt;
-    public TextMeshProUGUI uiTextValue;
+    public SOInt soIntCoins;
+    public SOInt soIntLifes;
+    public TextMeshProUGUI uiTextCoins;
+    public TextMeshProUGUI uiTextLifes;
 
     // Start is called before the first frame update
     void Start()
     {
-        uiTextValue.text = soInt.value.ToString();   
+        uiTextCoins.text = soIntCoins.value.ToString();
+        uiTextLifes.text = soIntLifes.value.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        uiTextValue.text = soInt.value.ToString();
+        uiTextCoins.text = soIntCoins.value.ToString();
+        uiTextLifes.text = soIntLifes.value.ToString();
     }
 }

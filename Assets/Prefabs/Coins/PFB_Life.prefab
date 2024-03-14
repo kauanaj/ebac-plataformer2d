@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1549463202145615310}
   - component: {fileID: 6233112412377178985}
   m_Layer: 0
-  m_Name: SPR_Coin
+  m_Name: SPR_Life
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 13
-  m_Sprite: {fileID: 21300000, guid: de085835d504f71449418b1ac8036134, type: 3}
+  m_Sprite: {fileID: 957360823485079048, guid: 8f0a112dd4756bf4fb5e36b6a29ebf4d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,10 +96,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5540041755888528341}
   - component: {fileID: 107826263894089491}
-  - component: {fileID: 3441074525457126982}
+  - component: {fileID: 379638761167178434}
   m_Layer: 0
-  m_Name: PFB_Coin
-  m_TagString: Coins
+  m_Name: PFB_Life
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,7 +156,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1.1
---- !u!114 &3441074525457126982
+--- !u!114 &379638761167178434
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1560848421028162138}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b18d34bfde4734f4f965fe31b1ca6feb, type: 3}
+  m_Script: {fileID: 11500000, guid: 227cf5c2db7d282499a0c27a31d53211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   compareTag: Player
