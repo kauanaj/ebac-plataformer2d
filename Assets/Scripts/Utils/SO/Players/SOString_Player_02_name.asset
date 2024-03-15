@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf35d23bbe011474aa6d4c2c971010d8, type: 3}
-  m_Name: SOInt_Lifes
+  m_Script: {fileID: 11500000, guid: 20872e420bf98ce44bf176a550a0bfe3, type: 3}
+  m_Name: SOString_Player_02_name
   m_EditorClassIdentifier: 
-  value: 3
+  value: Paula
