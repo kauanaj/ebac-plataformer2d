@@ -2591,7 +2591,7 @@ MonoBehaviour:
   startLife: 10
   destroyOnKill: 0
   delayToKill: 1
-  _flashColor: {fileID: 1999095691}
+  _flashColor: {fileID: 0}
 --- !u!50 &812299574
 Rigidbody2D:
   serializedVersion: 4
@@ -5296,7 +5296,7 @@ MonoBehaviour:
   startLife: 10
   destroyOnKill: 0
   delayToKill: 1
-  _flashColor: {fileID: 1999095691}
+  _flashColor: {fileID: 0}
 --- !u!4 &1522993108 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5540041755888528341, guid: ccbfce4feed006447830ae60d0bc82e6, type: 3}
@@ -6253,17 +6253,6 @@ MonoBehaviour:
   soIntLifes: {fileID: 11400000, guid: 0bb0a5b60734587408b32eaafc9c7ce8, type: 2}
   uiTextCoins: {fileID: 1428323315}
   uiTextLifes: {fileID: 1161393743}
---- !u!114 &1999095691 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2116730157979594741, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 813632389}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd04be5580f389b49838646e441ee610, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2022250557
 GameObject:
   m_ObjectHideFlags: 0
