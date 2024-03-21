@@ -169,3 +169,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   compareTag: Player
+  particleSys: {fileID: 0}
+  timeToHide: 3
+  itemGraphic: {fileID: 819137519977517159}
