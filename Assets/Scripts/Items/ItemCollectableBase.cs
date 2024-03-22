@@ -6,7 +6,7 @@ public class ItemCollectableBase : MonoBehaviour
 {
     public string compareTag = "Player";
     public ParticleSystem particleSys;
-    public int timeToHide = 3;
+    public int timeToHide = 2;
     public GameObject itemGraphic;
 
     private void OnTriggerEnter2D(Collider2D collision)

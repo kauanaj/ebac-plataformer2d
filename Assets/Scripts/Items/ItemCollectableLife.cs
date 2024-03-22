@@ -8,5 +8,6 @@ public class ItemCollectableLife : ItemCollectableBase
     {
         base.OnCollect();
         ItemManager.instance.AddLifes();
+        gameObject.GetComponent<CircleCollider2D>().enabled = false;
     }
 }

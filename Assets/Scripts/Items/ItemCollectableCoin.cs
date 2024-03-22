@@ -9,5 +9,6 @@ public class ItemCollectableCoin : ItemCollectableBase
     {
         base.OnCollect();
         ItemManager.instance.AddCoins();
+        gameObject.GetComponent<CircleCollider2D>().enabled = false;
     }
 }
