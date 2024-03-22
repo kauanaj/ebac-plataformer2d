@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
 
     private bool IsGrounded()
     {
-        Debug.DrawRay(transform.position, -Vector2.up, Color.magenta, distanceGround + spaceToGround);
+        //Debug.DrawRay(transform.position, -Vector2.up, Color.magenta, distanceGround + spaceToGround);
         return Physics2D.Raycast(transform.position, -Vector2.up, distanceGround + spaceToGround);
     }
 
@@ -118,7 +118,8 @@ public class Player : MonoBehaviour
     {
         if(jumpVfx != null)
         {
-            jumpVfx.Play();
+            VFXManager.instance.PlayVFXByType(VFXManager.VFXType.JUMP, transform.position);
+            //jumpVfx.Play();
         }
     }
 
