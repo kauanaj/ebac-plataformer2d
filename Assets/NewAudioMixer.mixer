@@ -19,6 +19,21 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!245 &-3813879157896240454
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ingame
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: d0e79b0bec6df1b42a01c88328c5c325
+  m_FloatValues:
+    cb27c48281e50954a86e0310dda8a62d: -6.7290215
+    dc27d859a29acfd4f80b43a211134cb8: -2.4012694
+    8dfdfe1b43ca09f4d893e43c1d601814: -0.05731017
+    6a6fed5f653e0cc4a8953ae2f4ffc104: -3.8
+  m_TransitionOverrides: {}
 --- !u!244 &-3595162688147159281
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -71,12 +86,17 @@ AudioMixerController:
   m_OutputGroup: {fileID: 0}
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
-  - {fileID: 24500006}
-  m_StartSnapshot: {fileID: 24500006}
+  - {fileID: -3813879157896240454}
+  - {fileID: 3754782863732416422}
+  m_StartSnapshot: {fileID: -3813879157896240454}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: 6a6fed5f653e0cc4a8953ae2f4ffc104
+    name: VolumeAmbience
+  - guid: 8dfdfe1b43ca09f4d893e43c1d601814
+    name: VolumeSFX
   m_AudioMixerGroupViews:
   - guids:
     - ed4c4e21e3156a04ba26fa71b61f7557
@@ -85,7 +105,7 @@ AudioMixerController:
     - 13605f69d21e1d84fa27533908993819
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: 24500006}
+  m_TargetSnapshot: {fileID: -3813879157896240454}
 --- !u!243 &24300002
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -121,16 +141,19 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
---- !u!245 &24500006
+--- !u!245 &3754782863732416422
 AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Snapshot
+  m_Name: Menu
   m_AudioMixer: {fileID: 24100000}
-  m_SnapshotID: 8fff463d640485f4fa80cda248882762
-  m_FloatValues: {}
+  m_SnapshotID: 26175dbbee5e2c64ba4efae959e4aec4
+  m_FloatValues:
+    dc27d859a29acfd4f80b43a211134cb8: 5.050068
+    8dfdfe1b43ca09f4d893e43c1d601814: -29.67864
+    6a6fed5f653e0cc4a8953ae2f4ffc104: 0.028544791
   m_TransitionOverrides: {}
 --- !u!243 &3960398123488818302
 AudioMixerGroupController:
